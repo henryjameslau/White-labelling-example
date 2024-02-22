@@ -1,0 +1,36 @@
+@font-face {
+  font-family: BBCReithSans;
+  src: url("https://static.files.bbci.co.uk/fonts/reith/2.512/BBCReithSans_W_Rg.woff2");
+}
+
+@font-face {
+  font-family: BBCReithSans;
+  src: url("https://static.files.bbci.co.uk/fonts/reith/2.512/BBCReithSans_W_Bd.woff2");
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: BBCReithSerif;
+  src: url("https://static.files.bbci.co.uk/fonts/reith/2.512/BBCReithSerif_W_Rg.woff2");
+}
+
+@font-face {
+  font-family: BBCReithSerif;
+  src: url("https://static.files.bbci.co.uk/fonts/reith/2.512/BBCReithSerif_W_Bd.woff2");
+  font-weight: bold;
+}
+
+div.client-css-override{
+    --text: #f9ea9a;
+    --muted: #F7E478;
+    --hinted: #f98948;
+    --pale: #684e32ff;
+    --background: #5d3a00;
+    --link: #9b8816ff;
+    --link-hover: ##7D6D12;
+    
+}
+
+div.client-css-override * {
+  font-family: BBCReithSerif, Helvetica, Arial, sans-serif;
+}
