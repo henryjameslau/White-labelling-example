@@ -11,7 +11,7 @@ localhost:5173/?customStylesheet=http://localhost:5173/static/overrides.css
 
 There is custom stylesheet called `overrides.css` in the static folder. The vite.config.js has been edited so that the static folder is also served on localhost.
 ## How it works
-When using the `<Theme>` component specify a `theme` and set the prop `allowClientOverrides` to true. This then sets a `div` with the class `client-css-override` inside the theme which can then be targetting with CSS, for example
+When using the `<Theme>` component, specify a `theme` and set the prop `allowClientOverrides` to true. This then sets a `div` with the class `client-css-override` inside the theme which can then be targetting with CSS, for example
 
 ```css
 div.client-css-override{
